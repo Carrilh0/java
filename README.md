@@ -1,4 +1,4 @@
-# java
+# Aprendendo java
 ```
-Aprendendo Java
+Aula #06 Tipos Primitivos | Entrada e saída de dados
 ```
