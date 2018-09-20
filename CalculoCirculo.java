@@ -13,7 +13,7 @@ public class CalculoCirculo{
 	System.out.println("=>");
 	reio = area.nextFloat();
 	
-	area = (pi*(raio^2));
+	area = (pi*(raio*raio));
 	
 	System.out.println("O valor da área é: " + area);
 	}
