@@ -7,7 +7,7 @@ public class CalculoCirculo{
 	
 	float raio, area;
 	
-	Scanner area = new Scanner();
+	Scanner area = new Scanner(System.in);
 	
 	System.out.println("Digite a raio: ");
 	System.out.println("=>");
