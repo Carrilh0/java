@@ -10,7 +10,7 @@ public class CalculoCirculo{
 	Scanner area = new Scanner(System.in);
 	
 	System.out.println("Digite a raio: ");
-	System.out.println("=>");
+	System.out.print("=>");
 	reio = area.nextFloat();
 	
 	area = (pi*(raio*raio));
