@@ -11,10 +11,13 @@ public class Livro extends Produto {
 		this.autor=autor;
 	}
    
-	public String getAutor(){
-	   return autor;
+		public String getAutor(){
+		   return autor;
+		}
+	
+	public String getDescricao(String descricao) {
+		return descricao;
 	}
-   
    
    
 }

@@ -10,7 +10,9 @@ public class Array {
 	 int i = 0;
 	 
 		 for(i=0;i<vetor.length;i++) {	 
-			 if(vetor[i] % 2 == 0) 
+			 if(vetor[i] % 2 == 0) //Verifica sé o valor armazenado é par 
 			 System.out.println("Valores: " + vetor[i]);
-	 }
- }
+		 }
+	}
+}
+

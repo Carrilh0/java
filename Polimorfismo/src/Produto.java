@@ -4,7 +4,7 @@ public class Produto {
     private double preco;
     private String descricao;
     
-    
+    //Construtor + parametros
     public Produto(String nomeloja, double preco, String descricao) {
     	this.nomeloja = nomeloja;
     	this.preco=preco;
@@ -16,12 +16,11 @@ public class Produto {
     public void setNomeLoja(String nomeloja){
     this.nomeloja=nomeloja;
     }
-    
         public String getNomeLoja(){
         return nomeloja;
-        }
+        }   
     
-    
+        
     public void setPreco(double preco){
     this.preco=preco;
     }   
@@ -29,17 +28,10 @@ public class Produto {
         return preco;
         }
  
-   
     public void setDescricao(String descricao) {
     	this.descricao=descricao; 	
     }
-        
-        
     	public String getDescricao(){
-    		return "Produto de Informatica";
-        } 
-        
-        
-    
-    
+    		return descricao;
+        }      
 }
