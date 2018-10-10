@@ -16,7 +16,7 @@ public class Mouse extends Produto{
     
     //Retorna descricao do produto, modificado no construtor de Mouse
     public String getDescricao(String descricao) {
-    	return this.tipo=descricao;
+    	return descricao;
     }
 
 }
